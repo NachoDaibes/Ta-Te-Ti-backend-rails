@@ -1,14 +1,23 @@
 # README
 
-TATETI
-En el código se encuentra el backend del juego TaTeTi. Hay dos modelos (User y Board) y dos controladores (users_controller y boards_controller).
-Instalación 
-Ejecutar el siguiente comando
-bundle install
-Con el comando rails s se pondrá en marcha el proyecto en el servidor local en el puerto 3000.
+# TATETI
 
-Métodos User
-set_token: Este método genera un token antes de la creación de un nuevo usuario. Una vez creado, se utilizará el mismo token para todo lo requerido.
+En el código se encuentra el backend del juego TaTeTi. Hay dos modelos (User y Board) y dos controladores (users_controller y boards_controller).
+
+## Instalación 
+
+Ejecutar el siguiente comando:
+
+    $ bundle install
+
+Con el siguiente comando se pondrá en marcha el proyecto en el servidor local en el puerto 3000.
+
+    $ rails s 
+
+
+## Métodos User
+### set_token 
+Este método genera un token antes de la creación de un nuevo usuario. Una vez creado, se utilizará el mismo token para todo lo requerido.
 
 Métodos Board
 empty_board: Este médoto es invocado antes de la creación de un nuevo Board para inicializar los atributos de este con los valores especificados.
