@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  board: MyString
+  winner: MyString
+  turn: MyString
+  player1: MyString
+  player2: MyString
+
+two:
+  board: MyString
+  winner: MyString
+  turn: MyString
+  player1: MyString
+  player2: MyString
